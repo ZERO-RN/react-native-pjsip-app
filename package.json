@@ -1,0 +1,49 @@
+{
+  "name": "PjApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "lint": "eslint ./app",
+    "test": "mocha --require react-native-mock/mock.js --compilers js:babel-core/register ./app/**/*.spec.js",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios"
+  },
+  "dependencies": {
+    "events": "^1.1.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.14.1",
+    "react": "15.4.2",
+    "react-native": "^0.41.2",
+    "react-native-action-button": "^2.0.1",
+    "react-native-callkit": "git+https://github.com/datso/react-native-callkit.git",
+    "react-native-linear-gradient": "^2.0.0",
+    "react-native-pjsip": "https://github.com/datso/react-native-pjsip.git",
+    "react-native-viewpager": "^0.2.11",
+    "react-native-voip-push-notification": "git+https://github.com/datso/react-native-voip-push-notification",
+    "react-redux": "^5.0.2",
+    "redux": "^3.5.2",
+    "redux-devtools": "^3.3.1",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.1.0",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "autobind-decorator": "^1.4.1",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "chai": "^4.0.2",
+    "enzyme": "^2.8.2",
+    "eslint": "^3.19.0",
+    "eslint-config-google": "^0.8.0",
+    "eslint-plugin-react": "^7.0.1",
+    "eslint-plugin-react-native": "^2.3.2",
+    "mocha": "^3.4.2",
+    "prop-types": "^15.5.10",
+    "react": "^15.4.2",
+    "react-dom": "^15.6.0",
+    "react-native-mock": "^0.3.1",
+    "remote-redux-devtools": "^0.4.1",
+    "sinon": "^2.3.4"
+  }
+}
